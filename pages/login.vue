@@ -46,7 +46,6 @@
           <p class="has-text-grey">
             <a>Sign In With Google</a> &nbsp;·&nbsp;
             <nuxt-link to="/register">Sign Up</nuxt-link> &nbsp;·&nbsp;
-
             <a href="../">Need Help?</a>
           </p>
         </div>
@@ -54,6 +53,7 @@
     </div>
   </section>
 </template>
+
 
 <style scoped>
   .hero.is-success {
