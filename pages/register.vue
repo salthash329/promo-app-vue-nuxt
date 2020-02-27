@@ -3,7 +3,7 @@
     <div class="hero-body">
       <div class="container has-text-centered">
         <div class="column is-4 is-offset-4">
-          <h3 class="title has-text-grey">Register</h3>
+          <h3 class="title has-text-grey">新規登録</h3>
           <p class="subtitle has-text-grey">Please register to proceed.</p>
           <div class="box">
             <figure class="avatar">
