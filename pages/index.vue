@@ -5,9 +5,14 @@
       <div class="container">
         <h1 class="title">Featured Courses</h1>
         <div class="columns">
-          <div class="column is-one-quarter">
+          <!-- iterate columns with v-for / :key -->
+          <div 
+            v-for="course in courses" 
+            :key="course._id"
+            class="column is-one-quarter"> 
             <!-- CARD-ITEM -->
-            <course-card />
+            <!-- pass a course as a props to course-card -->
+            <course-card :course="course" />
             <!-- CARD-ITEM-END -->
           </div>
         </div>
