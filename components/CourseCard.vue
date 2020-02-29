@@ -1,8 +1,7 @@
 <template>
   <div class="card">
     <div class="card-image">
-      <figure class="image is-4by2">
-        <!-- <img src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Placeholder image">-->
+      <figure class="image is-4by2">        
         <img :src="course.image" alt="Placeholder image"> 
       </figure>
     </div>
