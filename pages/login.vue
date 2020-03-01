@@ -4,7 +4,7 @@
       <div class="container has-text-centered">
         <div class="column is-4 is-offset-4">
           <h3 class="title has-text-grey">ログイン</h3>
-          <p class="subtitle has-text-grey">Please login to proceed.</p>
+          <p class="subtitle has-text-grey">ログインしてください</p>
           <div class="box">
             <figure class="avatar">
               <img src="https://via.placeholder.com/300">
