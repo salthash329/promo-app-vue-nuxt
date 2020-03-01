@@ -57,12 +57,24 @@
 </template>
 
 <script>
+import {required, email } from 'vuelidate/lib/validators'
 export default {
   data(){
     return{
       form:{
         email: null,
         password: null
+      }
+    }
+  },
+  validations:{
+    form:{
+      email:{
+        email,
+        required
+      },
+      password:{
+        required
       }
     }
   },
