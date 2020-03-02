@@ -47,7 +47,7 @@
           </div>
           <p class="has-text-grey">
             <a>Sign In With Google</a> &nbsp;·&nbsp;
-            <nuxt-link to="/register">Sign Up</nuxt-link> &nbsp;·&nbsp;
+            <nuxt-link to="/register">アカウント登録</nuxt-link> &nbsp;·&nbsp;
             <a href="../">Need Help?</a>
           </p>
         </div>
