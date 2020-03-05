@@ -14,6 +14,7 @@
                 <div class="control">
                   <input class="input is-large"
                       v-model="form.email"
+                      @blur="$v.form.email.$touch()"
                       type="email"
                       placeholder="Your Email"
                       autofocus=""
@@ -28,6 +29,7 @@
                 <div class="control">
                   <input
                     v-model="form.password"
+                    @blur="$v.form.password.$touch()"
                     class="input is-large"
                     type="password"
                     placeholder="Your Password"
@@ -40,6 +42,7 @@
               <!-- Login Button -->
               <button
                 @click.prevent="login"
+                :disabled="$v.form.$invalid"
                 class="button is-block is-info is-large is-fullwidth">
                 Login
               </button>
