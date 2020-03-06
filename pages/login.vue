@@ -24,8 +24,7 @@
                     <span v-if="!$v.form.email.emailValidator" class="help is-danger">Email address is not valid</span>
                   </div>
                 </div>
-              </div>
-              
+              </div>              
               <div class="field">
                 <div class="control">
                   <input
