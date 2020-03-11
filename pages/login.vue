@@ -59,8 +59,6 @@
   </section>
 </template>
 
-
-
 <script>
 import {required, email } from 'vuelidate/lib/validators'
 export default {
